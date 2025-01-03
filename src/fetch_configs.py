@@ -47,7 +47,7 @@ def fetch_wireguard_configs():
             return
         
         final_configs = [
-            f"{config}#IRANman{i+1}"
+            f"{config}#IRANman{red+1}"
             for i, config in enumerate(configs)
         ]
         
